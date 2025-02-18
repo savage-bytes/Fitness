@@ -2,21 +2,21 @@ import requests
 from datetime import datetime
 
 # Nutritionix API Credentials
-APP_ID = "66780314"
-API_KEY = "e50566f828cd3570f61c3149d5124f0b"
+APP_ID = "YOUR API ID"
+API_KEY = "YOUR API KEY"
 
-GENDER = "MALE"
-WEIGHT_KG = 70
-HEIGHT_CM = 173
-AGE = 20
+GENDER = "male/ female"
+WEIGHT_KG = "WEIGHT"
+HEIGHT_CM = "HEIGHT"
+AGE = "AGE"
 
 # Nutritionix Endpoint
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 
-TOKEN = "TmlkaGlzaDpOaWRoaXNoMTgxMA=="
+TOKEN = "TOKEN GIVEN"
 
 # Sheety Endpoint and Authorization
-sheety_endpoint = "https://api.sheety.co/f89c5faa0323c1b2bb1c3c838fe5af5c/myWorkouts/workouts"
+sheety_endpoint = "SHEETY END POINTS"
 sheety_headers = {
     "Authorization": f"Basic {TOKEN}"  # Add your Sheety token
 }
